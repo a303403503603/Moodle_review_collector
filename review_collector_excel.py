@@ -87,7 +87,7 @@ def open_third_data(driver, h2_text, all_responses_url):
             data.append((reviewer_name, reviewes))
     return data
     
-def save_to_excel(i, data, filename='c:\\Users\\a3034\\Desktop\\OUTPUT.xlsx'):
+def save_to_excel(i, data, filename='OUTPUT.xlsx'):
     if not os.path.isfile(filename):
         wb = Workbook()
         ws = wb.active
